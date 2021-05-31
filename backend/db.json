@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "mjds@empresa.com"
+    },
+    {
+      "name": "Paulo Henrique de Mattos",
+      "email": "",
+      "id": 3
+    },
+    {
+      "name": "Dorfinho",
+      "email": "dorfo@huper",
+      "id": 4
+    }
+  ]
+}

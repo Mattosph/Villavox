@@ -1,0 +1,17 @@
+.player-wrapper {
+    
+    padding: 2%;
+    padding-bottom: 4%; /* Player ratio: 100 / (1280 / 720) */
+    height: 500px;
+    width:750px;
+    box-shadow: 
+        2px 0 10px rgba(0,0,0,0.12),
+        2px 0 10px rgba(0,0,0,0.09);
+  }
+  
+  .react-player {
+    /* position: ; */
+    top: 0;
+    left: 0;
+    
+  }

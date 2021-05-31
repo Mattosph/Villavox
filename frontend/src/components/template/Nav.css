@@ -1,0 +1,45 @@
+aside.menu-area{
+    background-color: #A61717;
+    box-shadow: 
+        2px 0 10px rgba(0,0,0,0.12),
+        2px 0 10px rgba(0,0,0,0.09);
+
+}
+
+.menu a{
+    display: block;
+    text-decoration:none;
+    color: white;
+    font-weight:300;
+    padding:15px;
+
+}
+
+.menu a:hover{
+    background: linear-gradient(135deg, #a61c1c 0%, #F27B13 50%, #8c1b24 100%);
+    border-radius: 5px;
+}
+
+.fas.fa-mobile-alt{
+    size: 1em;
+}
+
+@media (max-width: 768px){
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu a {
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+
+    }
+
+    .menu {
+        height:100%;
+
+    }
+}
